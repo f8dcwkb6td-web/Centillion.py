@@ -79,7 +79,7 @@ SERVER        = os.environ.get("MT5_SERVER", "")
 SYMBOLS = ["AUDJPY", "EURJPY", "EURAUD", "GBPJPY", "USDJPY"]
 
 # ── Strategy constants ────────────────────────────────────────────────────────
-RISK_PER_TRADE         = 0.01          # 1% per trade per symbol
+RISK_PER_TRADE         = 0.06          # 1% per trade per symbol
 MAGIC                  = 202603030     # DIFFERENT from Vigintillion (202602260)
 COMMENT                = "Centillion_Live"
 MAX_HOLD               = 60
