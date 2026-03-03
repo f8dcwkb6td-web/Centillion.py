@@ -719,7 +719,7 @@ def run_live():
     logger.info(f"Engine: CENTILLION | Magic: {MAGIC}")
     logger.info(f"Symbols: {SYMBOLS}")
     logger.info(f"BEST_PARAMS: {BEST_PARAMS}")
-    logger.info(f"RISK_PER_TRADE: {RISK_PER_TRADE:.1%} per symbol")
+    logger.info(f"RISK_PER_TRADE: {RISK_PER_TRADE:.6%} per symbol")
     logger.info(f"Trade windows: 09-12 broker (London) | 15-17 broker (NY)")
     logger.info(f"Asian range:   01-09 broker (Tokyo)")
     logger.info("=" * 60)
